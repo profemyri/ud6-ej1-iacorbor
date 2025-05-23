@@ -15,9 +15,11 @@
           </h2>
           <p>
             <xsl:value-of select="description"/>
-            <span> </span>
-            <xsl:value-of select="platform"/>
           </p>
+          <span> </span>
+          <p>
+            <xsl:text>Platform:</xsl:text>
+            <xsl:value-of select="platform"/></p>
         </xsl:for-each>
       </body>
     </html>
